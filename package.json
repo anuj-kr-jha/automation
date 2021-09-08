@@ -1,0 +1,20 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "automation using husky eslint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuj-kr-jha/automation.git"
+  },
+  "keywords": ["automation", "husky"],
+  "author": "anuj",
+  "license": "IMIT",
+  "bugs": {
+    "url": "https://github.com/anuj-kr-jha/automation/issues"
+  },
+  "homepage": "https://github.com/anuj-kr-jha/automation#readme"
+}
