@@ -4,17 +4,31 @@
   "description": "automation using husky eslint",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "lint": "eslint '**/*.js'",
+   "lint-fix": "prettier-eslint '**/*.js' --write"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anuj-kr-jha/automation.git"
   },
-  "keywords": ["automation", "husky"],
+  "keywords": [
+    "automation",
+    "husky"
+  ],
   "author": "anuj",
   "license": "IMIT",
   "bugs": {
     "url": "https://github.com/anuj-kr-jha/automation/issues"
   },
-  "homepage": "https://github.com/anuj-kr-jha/automation#readme"
+  "homepage": "https://github.com/anuj-kr-jha/automation#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.25.1",
+    "prettier-eslint": "^13.0.0",
+    "prettier-eslint-cli": "^5.0.1"
+  }
 }
